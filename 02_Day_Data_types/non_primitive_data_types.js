@@ -1,30 +1,30 @@
-let nums = [1, 2, 3]
-nums[0] = 10
-console.log(nums) // [10, 2, 3]
+let nums = [1, 2, 3];
+nums[0] = 10;
+console.log(nums); // [10, 2, 3]
 
-let nums = [1, 2, 3]
-let numbers = [1, 2, 3]
-console.log(nums == numbers) // false
+let nums = [1, 2, 3];
+let numbersig = [1, 2, 3];
+console.log(nums == numbersing); // false
 
-let userOne = {
-  name: 'Asabeneh',
-  role: 'teaching',
-  country: 'Finland'
-}
-let userTwo = {
-  name: 'Asabeneh',
-  role: 'teaching',
-  country: 'Finland'
-}
-console.log(userOne == userTwo) // false
+let userOneUser = {
+  name: "Asabeneh",
+  role: "teaching",
+  country: "Finland",
+};
+let userTwoUser = {
+  name: "Asabeneh",
+  role: "teaching",
+  country: "Finland",
+};
+console.log(userOneUser == userTwoUser); // false
 
-let numbers = nums
-console.log(nums == numbers)  // true
+let numbers = nums;
+console.log(nums == numbersing); // true
 
-let userOne = {
-name:'Asabeneh',
-role:'teaching',
-country:'Finland'
-}
-let userTwo = userOne
-console.log(userOne == userTwo)  // true
+let userOneUser = {
+  name: "Asabeneh",
+  role: "teaching",
+  country: "Finland",
+};
+let userTwoUSer = userOneUser;
+console.log(userOneUser == userTwoUser); // true
